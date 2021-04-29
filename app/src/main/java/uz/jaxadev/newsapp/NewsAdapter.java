@@ -10,8 +10,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.abduqodirov.newsapp.model.News;
-
 import java.util.List;
 
 public class NewsAdapter extends ArrayAdapter<News> {
@@ -30,7 +28,7 @@ public class NewsAdapter extends ArrayAdapter<News> {
                     R.layout.item_news, parent, false);
         }
 
-        com.abduqodirov.newsapp.model.News news = getItem(position);
+       News news = getItem(position);
 
         TextView newsTitleView = listItemView.findViewById(R.id.news_title_text);
         TextView newsSectionView = listItemView.findViewById(R.id.news_section_text);
