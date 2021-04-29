@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">News App</string>
+
+    <string name="query_key">virus</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="no_news">There is no news</string>
+</resources>
